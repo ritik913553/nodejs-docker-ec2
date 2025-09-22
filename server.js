@@ -33,6 +33,9 @@ app.get('/api/:id',(req,res)=>{
   res.send(`Hey ${req.params.id}`);
 })
 
+app.get('/api/health',(req,res)=>{
+  res.send('Server is healthy');
+})
 
 
 app.listen(PORT, () => {
