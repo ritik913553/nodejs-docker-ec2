@@ -1,0 +1,29 @@
+# Node modules (local machine ke, container ke nahi)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Dependency lock backups
+package-lock.json*
+yarn.lock*
+
+# Build outputs
+dist
+build
+.cache
+
+# Environment files
+.env
+.env.*.local
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+.dockerignore
