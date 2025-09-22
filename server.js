@@ -5,7 +5,11 @@ const PORT = process.env.PORT || 4000;
 import path from "path";
 
 
-app.use(cors());
+app.use(
+    cors({
+        origin: ["https://github-actions.ritikg.space","http://13.233.236.94"],
+    })
+);
 app.use(express.json());
 
  const profileData = {
